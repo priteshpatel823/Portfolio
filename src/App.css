@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f3f2e8;
+}
+
+header {
+  padding: 40px;
+  height: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  background-image: url('https://uploads.portfoliogen.com/photos/headerimages/21068_824A0347-5056-A84C-53FB0633DE04E6ED.jpg');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+header nav {
+  padding-top: 35px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.name {
+  margin-top: 0px;
+  padding: 25px;
+  height: 310px;
+  background-color: #f5da9f;
+  color: #66553a;
+  text-align: center !important;
+  border-radius: 25px;
+}
+
+.intro {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #66553a;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.education {
+  margin-top: 15px;
+  height: 170px;
+  background-color: #f5da9f;
+  color: #66553a;
+  padding-left: 10px;
+  border-radius: 25px;
+}
+
+h3 {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #66553a;
+}
+
+.intrest {
+  margin-top: 15px;
+  height: 170px;
+  background-color: #f5da9f;
+  color: #66553a;
+  padding-left: 10px;
+  border-radius: 25px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  font-style: italic;
+}
+
+h5 {
+  padding: 2px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  margin-top: -40px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*new css*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column about me*/
+.main {
+  flex: 75%;
+  background-color: #f5da9f;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #66553a;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Main_2 column my work*/
+.main_2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3f2e8;
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  flex: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.Project_1 {
+  background-color: #f5da9f;
+  padding: 10px;
+  flex: 25%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.Project_2 {
+  background-color: rgb(212, 177, 60);
+  padding: 10px;
+  flex: 25%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.Project_3 {
+  background-color: #f5da9f;
+  padding: 10px;
+  flex: 25%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.Project_4 {
+  background-color: rgb(212, 177, 60);
+  padding: 10px;
+  flex: 25%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.desc_img {
+  padding: 15px;
+  text-align: center;
+}
+
+.work {
+  background-color: #f1f1f1;
+  border-radius: 25px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(228, 186, 79);
+  border-radius: 25px;
+}
+
+.footer a {
+  color: #66553a;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.desc_img {
+  color: #000;
+}
